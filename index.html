@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vila Oliveira</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites/dist/css/foundation.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="variables.css">
+</head>
+<body>
+    <div class="off-canvas-wrapper">
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+            <ul class="vertical menu">
+                <li><a href="#apresentacao">Apresentação</a></li>
+                <li><a href="#carrossel">Carrossel</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="off-canvas-content" data-off-canvas-content>
+            <header>
+                <button class="menu-icon" type="button" data-toggle="offCanvas"></button>
+            </header>
+
+            <section id="apresentacao" class="grid-container">
+                <div class="grid-x grid-padding-x align-center">
+                    <div class="cell small-12 text-center">
+                        <h1>Seja bem vindo</h1>
+                        <p>Somos uma empresa dedicada a fornecer as melhores soluções para nossos clientes.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="carrossel" class="grid-container">
+                <div class="grid-x grid-padding-x align-center">
+                    <div class="cell small-12 text-center">
+                        <h1>Conheça nosso espaço</h1>
+                        <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                            <ul class="orbit-container">
+                                <li class="is-active orbit-slide">
+                                    <img src="img/01.PNG" alt="Imagem 1">
+                                </li>
+                                <li class="orbit-slide">
+                                    <img src="img/02.PNG" alt="Imagem 2">
+                                </li>
+                                <li class="orbit-slide">
+                                    <img src="img/03.PNG" alt="Imagem 3">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contato" class="grid-container">
+                <div class="grid-x grid-padding-x align-center">
+                    <div class="cell small-12 text-center">
+                        <h1>Entre em contato conosco</h1>
+                        <a href="https://wa.me/SEUNUMERO" target="_blank">
+                            <img src="foto.jpg" alt="Contato WhatsApp">
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites/dist/js/foundation.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
