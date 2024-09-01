@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vila Oliveira</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites/dist/css/foundation.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="off-canvas-wrapper">
-        <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
-            <ul class="vertical menu">
-                <li><a href="#apresentacao">Apresentação</a></li>
+    <div class="off-canvas-wrapper ">
+        <div class="off-canvas position-left vertical_menu" id="offCanvas" data-off-canvas>
+            <ul class="vertical menu nav_bottons">
+                <li><a href="#apresentacao" >Apresentação</a></li>
                 <li><a href="#carrossel">Carrossel</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
@@ -51,6 +51,11 @@
                                     <img src="img/03.PNG" alt="Imagem 3">
                                 </li>
                             </ul>
+                            <nav class="orbit-bullets">
+                                <button class="is-active" data-slide="0"></button>
+                                <button data-slide="1"></button>
+                                <button data-slide="2"></button>
+                            </nav>
                         </div>
                     </div>
                 </div>
@@ -69,7 +74,10 @@
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/foundation-sites/dist/js/foundation.min.js"></script>
-    <script src="./scripts/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
 </body>
 </html>

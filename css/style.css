@@ -1,7 +1,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url(img/Capturar.PNG);
+    background-image: url(../img/Capturar.PNG);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -44,4 +44,17 @@ a img {
     width: 100px;
     height: auto;
     margin-top: 1rem;
+}
+
+.vertical_menu{
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    
+}
+.nav_bottons li a{
+    font-family: var(--fonte-titulo); /* Fonte personalizada */
+    font-size: 40px; /* Tamanho da fonte */
+    color: var(--cor-branca); /* Cor do texto */
 }
