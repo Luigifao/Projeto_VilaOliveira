@@ -9,6 +9,7 @@ body {
     width: 100vw;
     background-blend-mode: darken;
     background-color: rgba(0, 0, 0, 0.5);
+    overflow-x:hidden;
 }
 
 header {
@@ -21,9 +22,9 @@ header {
     color: #fff;
 }
 .img_whatsapp{
-    height: 450px;
+    height: 350px;
     width: 350px;
-    border-radius: 10px;
+    border-radius: 500px;
 }
 figcaption{
     color: #fff;
