@@ -20,7 +20,14 @@ header {
 .menu-icon {
     color: #fff;
 }
-
+.img_whatsapp{
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+}
+figcaption{
+    color: #fff;
+}
 h1 {
     margin-top: 2rem;
     font-size: 5rem;
